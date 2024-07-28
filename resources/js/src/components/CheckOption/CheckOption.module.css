@@ -1,0 +1,66 @@
+.CheckOption {
+    display: flex;
+    -webkit-box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.5);
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.2);
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    margin: .5rem;
+    cursor: default;
+    background-color: #989494;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Title {
+    flex: 1.7;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: .5rem;
+    background-color: #989494;
+    font-weight: bold;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Title:hover {
+    cursor: pointer;
+}
+
+.Title:active {
+    filter: brightness(89%);
+}
+
+.Quantity {
+    flex: 1;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid lightgrey;
+    font-size: 2rem;
+    padding: .5rem;
+    font-weight: bold;
+    background-color: #c4c4c4;
+}
+
+.green {
+    font-weight: bold;
+    color: var(--color-success);
+    background-color: white;
+}
+
+.yellow {
+    font-weight: bold;
+    color: var(--color-warning);
+    background-color: white;
+}
+
+.red {
+    font-weight: bold;
+    color: var(--color-danger);
+    background-color: white;
+}

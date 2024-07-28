@@ -1,0 +1,84 @@
+.Back {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Back > div {
+    flex: 1;
+}
+
+.Back > div button{
+    max-width: 58px;
+}
+
+.Back h2 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Icon {
+    fill: white;
+    font-size: 2.5rem;
+}
+
+.Back > div > div > button {
+    width: 150px;
+    margin-bottom: 1rem;
+    padding: 1.7rem!important;
+    font-size: 2rem;
+    border-radius: 50% !important;
+}
+
+@media(max-width: 500px){
+    .Back > div > div > button  {
+        width: 80vw;
+    }
+
+    .Back {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.HeaderStoreButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.HeaderStoreButton a {
+    text-decoration: none;
+}
+
+.HeaderStoreButton button {
+    width: 250px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 600px) {
+    .HeaderStoreButton {
+        justify-content: center;
+    }
+    .HeaderStoreButton button {
+        width: 90vw;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .System {
+        flex-direction: column;
+    }
+
+    .SpaceManu {
+       margin-top: 50px;
+    }
+
+    .Back h2{
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,14 @@
+.Header {
+    height: 5rem;
+    border-bottom: 1px solid lightgrey;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}

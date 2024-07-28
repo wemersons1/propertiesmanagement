@@ -1,0 +1,124 @@
+.Card {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: .1rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: .5rem;
+
+}
+
+.ModelChart {
+
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: .1rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: .5rem;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.Card3 {
+    background-color: white;
+    border-radius: .1rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin: .5rem;
+}
+
+.green {
+    border: 2px solid var(--color-success);
+}
+
+.grey {
+    border: 2px solid lightgrey;
+}
+
+.ContentCenter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.Card3, .Card {
+    cursor: default;
+}
+
+.Card3Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card3Container h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.Card4, .Card5 {
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1rem;
+
+}
+
+.Card4 .Image, .Card5 .Image {
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 3px;
+    height: 90%;
+}
+
+.Card4:hover, .Card5:hover {
+    cursor: default;
+}
+
+.ButtonCart {
+    padding: .7rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    width: 100%;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonRemove {
+    padding: .7rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    width: 100%;
+    color: white;
+    background-color: var(--color-pending);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconEyes {
+    font-size: 1.7rem;
+}
+
+.Card div button {
+    padding: 0 1rem;
+    background-color: transparent;
+}
+
+
+.Card div button:hover {
+    background-color:rgba(0, 0, 0, 0.09);
+    border-radius: .2rem;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+
+.Card div h4 {
+
+    font-size: 1.6rem;
+
+}

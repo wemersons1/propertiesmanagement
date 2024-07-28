@@ -1,0 +1,24 @@
+.HeightMenu {
+    height: var(--height-menu-mobile);
+}
+
+.System {
+    display: flex;
+    background-color: var(--color-light);
+}
+
+.SpaceManu {
+    display: none;
+}
+
+@media(max-width: 768px) {
+
+    .System {
+        flex-direction: column;
+    }
+
+    .SpaceManu {
+        display: block;
+        height: 20px;
+    }
+}

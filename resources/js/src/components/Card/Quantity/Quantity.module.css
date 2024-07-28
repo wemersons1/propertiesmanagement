@@ -1,0 +1,39 @@
+.Add {
+    background-color: #88c54b;
+    width: 100%;
+}
+
+.Remove {
+    background-color: var(--color-danger);
+    width: 100%;
+}
+
+.Add, .Remove {
+    padding: .7rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+
+.Quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.Quantity input {
+    height: 100%;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    color: grey;
+}
+
+.Quantity input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

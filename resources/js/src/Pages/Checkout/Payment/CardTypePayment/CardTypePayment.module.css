@@ -1,0 +1,37 @@
+.CardTypePayment {
+    border: 1px solid lightgrey;
+    color: var(--color-light-dark);
+    margin: 2rem !important;
+    border-radius: 1rem;
+    padding: 0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box !important;
+}
+
+.CardTypePayment h4 {
+    font-size: 3.7rem;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.CardTypePayment:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+    border: 2px solid var(--color-primary) !important;
+    transition: all .4s ease;
+    -webkit-transition: all .8s ease;
+}
+
+.pix,
+.pix h4,
+.credit,
+.credit h4,
+.debit,
+.debit h4,
+.billing,
+.billing h4 {
+    background-color: skyblue;
+    color: white;
+}

@@ -1,0 +1,187 @@
+#form-checkout {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 320px;
+    width: 100%;
+}
+
+.button-credit-card {
+    border-radius: .4rem !important;
+    padding: 1.2rem !important;
+    color: white !important;
+    background-color: var(--color-primary) !important;
+    font-size: 1.6rem;
+    margin-top: .5rem;
+}
+
+.form * {
+    outline: none;
+}
+
+.form input:focus,
+.form select:focus,
+.form div:focus {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 3px;
+}
+
+.form input,
+.form select,
+.form option,
+.form div {
+    font-size: 1.4rem;
+    padding: 1rem;
+    height: 4rem;
+    text-indent: 1rem;
+    margin: .3rem 0;
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+    text-align: left;
+}
+
+.form iframe {
+    height: 2rem;
+}
+
+.form button {
+    outline: none;
+    padding: .5rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    color: #f0f0f0;
+    font-weight: bold;
+    background-color: var(--color-secondary);
+}
+
+.credit-card * {
+    user-select: none;
+}
+
+.credit-card {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: 1px solid lightgrey;
+    border-radius: 1.4rem !important;
+    height: 200px !important;
+    padding: 20px !important;
+    position: relative;
+    margin: 0 auto;
+    color: white !important;
+    background: linear-gradient(90deg,
+            rgba(69, 69, 69, 1) 0%,
+            rgba(80, 80, 80, 1) 35%,
+            rgba(229, 228, 226, 1) 100%);
+}
+
+.img-credit-card {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.credit-card-number {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent !important;
+}
+
+.credit-card-number span {
+    text-align: center !important;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.cartd-number-title {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 6.8rem;
+    left: 10%;
+    color: white;
+}
+
+.info-bottom {
+    bottom: 2rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    border: 1px solid transparent !important;
+}
+
+.info-bottom * {
+    border: 1px solid transparent !important;
+}
+
+.info-bottom span {
+    font-size: 1rem;
+    color: white;
+}
+
+.info-bottom h3 {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.card-progress {
+    width: 100%;
+    padding: .2rem;
+    background-color: white;
+
+}
+
+#validation-error-messages {
+    border: 1px solid transparent;
+}
+
+#validation-error-messages p {
+    color: red;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+}
+
+.spinner {
+    border: 5px solid white !important;
+    border-left-color: lightgrey !important;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    animation: spin 1s linear infinite;
+    margin-left: 2rem !important;
+}
+
+.button-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinner {
+    border: 1px solid transparent;
+    height: 20px !important;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form input::placeholder {
+    font-size: 1.5rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,32 @@
+.RegisterClient {
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    margin: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.RegisterClient:active {
+
+    color: black;
+    background-color: var(--color-light-white);
+
+}
+
+.ButtonChecked {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 1rem;
+    border-radius: .2rem;
+}
+
+.Success {
+    color: white;
+    background-color: var(--color-success);
+}
+
+.Danger {
+    color: white;
+    background-color: var(--color-danger);
+}

@@ -1,0 +1,19 @@
+
+.Create h4 {
+    text-align: start;
+    margin-left: .5rem;
+    border-bottom: 1px solid white;
+    padding-bottom: .8rem;
+}
+
+.Create h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Icon {
+    fill: white;
+    font-size: 2rem;
+    color: white;
+}

@@ -1,0 +1,69 @@
+.InputDate {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-size: 2rem;
+    color: var(--color-light-dark);
+    margin: .5rem auto;
+}
+
+.InputDate:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 7px;
+}
+
+
+.FirstLineCard {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.FirstLineCard > div:nth-child(2n+1) {
+    flex: 1;
+}
+
+.SecondLineCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SecondLineCards > div {
+    flex: 1;
+}
+
+.FirstLineCard > div:nth-child(2n) {
+    flex: .1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Subtraction, .Equal {
+    padding: .1rem;
+    margin: .6rem;
+    width: 50%;
+}
+
+.Subtraction {
+    background-color: var(--color-danger);
+}
+
+.Equal {
+
+    background-color: var(--color-light-dark);
+
+}
+
+
+@media (max-width: 540px) {
+    .Subtraction, .Equal {
+        display:  none;
+    }
+
+    .FirstLineCard > div:nth-child(2n) {
+        flex: 0;
+    }
+}

@@ -1,0 +1,8 @@
+.CardPayment {
+    min-height: 35vh;
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

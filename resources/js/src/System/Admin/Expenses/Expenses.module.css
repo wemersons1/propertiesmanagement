@@ -1,0 +1,25 @@
+.Border {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(125, 125, 125);
+    padding: .25rem;
+}
+
+.Print {
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: #464cbe;
+    border-radius: .5rem;
+}
+
+.Print span {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+.ResultGeneral {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

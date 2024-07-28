@@ -1,0 +1,15 @@
+.Editor2 {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.Editor2 label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.Editor2 > div {
+   z-index: 0;
+}

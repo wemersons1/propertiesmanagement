@@ -1,0 +1,13 @@
+.Main {
+    font-size: 2rem;
+    color: white;
+    background-color: #00c383;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.Info {
+    font-size: 2rem;
+    color: #00c383;
+    padding: 1rem;
+}

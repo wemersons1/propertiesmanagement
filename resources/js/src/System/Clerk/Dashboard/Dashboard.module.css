@@ -1,0 +1,13 @@
+.InputDate {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-size: 2rem;
+    color: var(--color-light-dark);
+    margin: .5rem auto;
+}
+
+.InputDate:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 7px;
+}

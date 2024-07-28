@@ -1,0 +1,19 @@
+.Button {
+    padding: .7rem 1.3rem;
+    border: #0275d8;
+    border-radius: .5rem;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    margin: 0 .5rem;
+}
+
+.Button a,
+.Button button {
+    color: dodgerblue !important;
+}
+
+.Button:hover {
+    transition: all 0.5s ease-out;
+}

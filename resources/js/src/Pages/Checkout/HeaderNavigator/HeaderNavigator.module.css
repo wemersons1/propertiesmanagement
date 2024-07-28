@@ -1,0 +1,26 @@
+.HeaderNavigator {
+    border: 2px solid lightgrey;
+    border-radius: 1rem;
+    max-width: 450px;
+    width: 100%;
+    margin: 10rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background-color: white;
+}
+
+.HeaderNavigator button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.HeaderNavigator button * {
+    fill: color;
+}
+
+.HeaderNavigator button:hover {
+    transition: all 0.5s ease-out;
+    filter: brightness(50%);
+}
